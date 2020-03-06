@@ -16,10 +16,13 @@
     3. The program adds "way" to words that begin with a vowel.
       * Example Input: apple
       * Example Output: appleway
-    4. The program moves the first consecutive consonants to the end of the word and adds "ay" to words that begin with one or more consonants.
+    4. The program will treat the letter "y" like a consonant when it begins a word.
+      * Example Input: yoyo
+      * Example Output: oyoyay
+    5. The program moves the first consecutive consonants to the end of the word and adds "ay" to words that begin with one or more consonants.
       * Example Input: banana
       * Example Output: ananabay
-    5. The program moves "qu" to the end of the word as if they were a consonant if they are included in the first consonants of the word.
+    6. The program moves "qu" to the end of the word as if they were a consonant if they are included in the first consonants of the word.
       * Example Input: squeal
       * Example output: ealsquay
     
